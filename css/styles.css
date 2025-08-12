@@ -1,9 +1,9 @@
 body {
     font-family: "Roboto", sans serif;
-    color: rgb(77, 175, 38);
+    color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
-    background-color: rgb(237, 237, 243);
+    background-color: #E7E9FC;
     font-weight: 500;
 }
 
@@ -11,4 +11,19 @@ body {
 .portfolio .link:hover,
 .portfolio .link:focus {
     color: #cf4014;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: #c0dd18 ;
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: #c0dd18;
+}
+
+button {
+    color: #83bb1c;
+    cursor: pointer;
 }
