@@ -10,7 +10,7 @@
 
     <link
       rel="stylesheet"
-      href="<https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css>"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
@@ -21,72 +21,77 @@
       href="https://fonts.gstatic.com"
       crossorigin
     />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Bellefair&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
   </head>
 
-  <header>
-    <a href="#" class="link" target="_self"> WEBSTUDIO </a>
-
-    <nav class="nav">
-      <ul>
-        <li>
-          <a class="link" href="#">Studio</a>
-        </li>
-        <li>
-          <a class="link" href="#">Portfolio</a>
-        </li>
-        <li>
-          <a class="link" href="#">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-
-    <address class="address">
-      <p class="link" href="tel:+11(000)1111111">+11(000)111-11-11</p>
-
-      <p class="link" href="mailto:info@devstudio.com">
-        info@devstudio.com
-      </p>
-    </address>
-  </header>
-
   <body>
-    <h1>Effective Solutions for Your Business</h1>
-    <button class="button" type="button">Order Service</button>
+    <header>
+      <a href="#" class="webstudio" target="_self"> WEBSTUDIO </a>
 
-    <section>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="link" href="#">Studio</a>
+          </li>
+          <li>
+            <a class="link" href="#">Portfolio</a>
+          </li>
+          <li>
+            <a class="link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="address">
+        <a class="link" href="tel:+11(000)1111111">
+          +11(000)111-11-11
+        </a>
+
+        <br />
+
+        <a class="link" href="mailto:info@devstudio.com">
+          info@devstudio.com
+        </a>
+      </address>
+    </header>
+
+    <section class="firstsection">
+      <h1>Effective Solutions for Your Business</h1>
+      <button class="buttontext" type="button">Order Service</button>
+    </section>
+
+    <section class="secondsection">
       <ul>
         <li>
-          <h2>Strategy</h2>
-          <p>
+          <h3>Strategy</h3>
+          <p class="content">
             Our goal is to identify the business problem to walk away
             with the perfect and creative solution.
           </p>
         </li>
 
         <li>
-          <h2>Punctuality</h2>
-          <p>
+          <h3>Punctuality</h3>
+          <p class="content">
             Bring the key message to the brand's audience for the best
             price within the shortest possible time.
           </p>
         </li>
 
         <li>
-          <h2>Diligence</h2>
-          <p>
+          <h3>Diligence</h3>
+          <p class="content">
             Research and confirm brands with the strongest digital
             growth opportunities and minimize risk.
           </p>
         </li>
 
         <li>
-          <h2>Technologies</h2>
-          <p>
+          <h3>Technologies</h3>
+          <p class="content">
             Design practice focused on digital experiences. We bring
             forth a deep passion for problem-solving.
           </p>
@@ -94,24 +99,24 @@
       </ul>
     </section>
 
-    <section>
+    <section class="thirdsection">
       <h2>Our Team</h2>
 
-      <ul>
+      <ul class="ourteam">
         <li>
           <img
             src="./images/img-11.jpg"
             width="150"
             alt="Mark Guerrero"
           />
-          <p>Mark Guerrero</p>
-          <p>Product Designer</p>
+          <p class="name">Mark Guerrero</p>
+          <p class="position">Product Designer</p>
         </li>
 
         <li>
           <img src="./images/img-22.jpg" width="150" alt="Tom Ford" />
-          <p>Tom Ford</p>
-          <p>Frontend Developer</p>
+          <p class="name">Tom Ford</p>
+          <p class="position">Frontend Developer</p>
         </li>
 
         <li>
@@ -120,8 +125,8 @@
             width="150"
             alt="Camila Garcia"
           />
-          <p>Camila Garcia</p>
-          <p>Marketing</p>
+          <p class="name">Camila Garcia</p>
+          <p class="position">Marketing</p>
         </li>
 
         <li>
@@ -130,146 +135,149 @@
             width="150"
             alt="Daniel Wilson"
           />
-          <p>Daniel Wilson</p>
-          <p>UI Designer</p>
+          <p class="name">Daniel Wilson</p>
+          <p class="position">UI Designer</p>
         </li>
       </ul>
     </section>
 
-    <h1>Our Portfolio</h1>
+    <section class="fourthsection">
+      <h2>Our Portfolio</h2>
 
-    <ul class="portfolio">
-      <li>
-        <a href="#" target="_blank">
-          <img
-            src="./images/img-1.jpg"
-            width="150"
-            alt="Banking App"
-          />
-        </a>
+      <ul class="portfolio">
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="./images/img-1.jpg"
+              width="150"
+              alt="Banking App"
+            />
+          </a>
 
-        <br />
+          <br />
 
-        <a class="link" href="#" target="_blank">Banking App</a>
+          <a class="work" href="#" target="_blank">Banking App</a>
 
-        <br />
+          <br />
 
-        <a class="link" href="#" target="_blank">App</a>
-      </li>
-
-      <br />
-
-      <li>
-        <a href="#" target="_blank">
-          <img
-            src="./images/img-1.jpg"
-            width="150"
-            alt="Cashless Payment"
-          />
-        </a>
+          <a class="type" href="#" target="_blank">App</a>
+        </li>
 
         <br />
 
-        <a class="link" href="#" target="_blank">Cashless Payment</a>
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="./images/img-1.jpg"
+              width="150"
+              alt="Cashless Payment"
+            />
+          </a>
+
+          <br />
+
+          <a class="work" href="#" target="_blank"
+            >Cashless Payment</a
+          >
+
+          <br />
+
+          <a class="type" href="#" target="_blank">Marketing</a>
+        </li>
 
         <br />
 
-        <a class="link" href="#" target="_blank">Marketing</a>
-      </li>
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="./images/img-3.jpg"
+              width="150"
+              alt="Meditation App"
+            />
+          </a>
 
-      <br />
+          <br />
 
-      <li>
-        <a href="#" target="_blank">
-          <img
-            src="./images/img-3.jpg"
-            width="150"
-            alt="Meditation App"
-          />
-        </a>
+          <a class="work" href="#" target="_blank">Meditation App</a>
 
-        <br />
+          <br />
 
-        <a class="link" href="#" target="_blank">Meditation App</a>
-
-        <br />
-
-        <a class="link" href="#" target="_blank">App</a>
-      </li>
-
-      <br />
-
-      <li>
-        <a href="#" target="_blank">
-          <img
-            src="./images/img-4.jpg"
-            width="150"
-            alt="Taxi Service"
-          />
-        </a>
+          <a class="type" href="#" target="_blank">App</a>
+        </li>
 
         <br />
 
-        <a class="link" href="#" target="_blank">Taxi Service</a>
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="./images/img-4.jpg"
+              width="150"
+              alt="Taxi Service"
+            />
+          </a>
+
+          <br />
+
+          <a class="work" href="#" target="_blank">Taxi Service</a>
+
+          <br />
+
+          <a class="type" href="#" target="_blank">Marketing</a>
+        </li>
 
         <br />
 
-        <a class="link" href="#" target="_blank">Marketing</a>
-      </li>
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="./images/img-5.jpg"
+              width="150"
+              alt="Screen Illustrations"
+            />
+          </a>
 
-      <br />
+          <br />
 
-      <li>
-        <a href="#" target="_blank">
-          <img
-            src="./images/img-5.jpg"
-            width="150"
-            alt="Screen Illustrations"
-          />
-        </a>
+          <a class="work" href="#" target="_blank"
+            >Screen Illustrations</a
+          >
 
-        <br />
+          <br />
 
-        <a class="link" href="#" target="_blank"
-          >Screen Illustrations</a
-        >
-
-        <br />
-
-        <a class="link" href="#" target="_blank">Design</a>
-      </li>
-
-      <br />
-
-      <li>
-        <a href="#" target="_blank">
-          <img
-            src="./images/img-6.jpg"
-            width="150"
-            alt="Online Courses"
-          />
-        </a>
+          <a class="type" href="#" target="_blank">Design</a>
+        </li>
 
         <br />
 
-        <a class="link" href="#" target="_blank">Online Courses</a>
+        <li>
+          <a href="#" target="_blank">
+            <img
+              src="./images/img-6.jpg"
+              width="150"
+              alt="Online Courses"
+            />
+          </a>
 
+          <br />
+
+          <a class="work" href="#" target="_blank">Online Courses</a>
+
+          <br />
+
+          <a class="type" href="#" target="_blank">Marketing</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <a href="/" class="webstudio2" target="_self"> WEBSTUDIO </a>
+
+      <p class="aim">
+        Increase the flow of customers and sales for your business
+        with digital marketing & growth solutions.
         <br />
-
-        <a class="link" href="#" target="_blank">Marketing</a>
-      </li>
-    </ul>
+        <br />
+      </p>
+    </footer>
   </body>
-
-  <footer>
-    <a href="/" class="link" target="_self"> WEBSTUDIO </a>
-
-    <p>
-      Increase the flow of customers and sales for your business with
-      digital marketing & growth solutions.
-      <br />
-      <br />
-      <strong>&copy; Fuat Erbey, 07/2025</strong>
-    </p>
-  </footer>
 </html>
