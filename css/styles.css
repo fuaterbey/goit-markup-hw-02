@@ -102,11 +102,21 @@ h2 {
     color: #2e4230;
 }
 
+.portfolio .work:hover,
+.portfolio .work:focus {
+    color: #404BBF;
+}
+
 .portfolio .type {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #435544;
+}
+
+.portfolio .type:hover,
+.portfolio .type:focus {
+    color: #404BBF;
 }
 
 footer {
