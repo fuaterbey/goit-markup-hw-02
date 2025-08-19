@@ -3,7 +3,6 @@ body {
     color: #2E2F42;
     font-size: 16px;
     line-height: 1,3125;
-    font-weight: 400;
 }
 
 .webstudio {
@@ -62,7 +61,8 @@ h3 {
 
 .content {
     line-height: 24px;
-    color : #434455;
+    color: #434455;
+    letter-spacing:0.02em;
 }
 
 .thirdsection {
@@ -99,20 +99,10 @@ h2 {
     color: #2e4230;
 }
 
-.portfolio .work:hover,
-.portfolio .work:focus {
-    color: #404BBF;
-}
-
 .portfolio .type {
     font-size: 16px;
     line-height: 1,5;
     color: #435544;
-}
-
-.portfolio .type:hover,
-.portfolio .type:focus {
-    color: #404BBF;
 }
 
 footer {
