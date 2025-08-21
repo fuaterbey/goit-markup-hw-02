@@ -77,6 +77,10 @@ h2 {
     font-weight: 700;
 }
 
+.ourteam {
+    list-style: none;
+}
+
 .ourteam .name {
     font-size: 20px;
     line-height: 1,2;
@@ -91,6 +95,10 @@ h2 {
 
 .fourthsection {
     text-align: center;
+}
+
+.portfolio {
+    list-style: none;
 }
 
 .portfolio .work {
